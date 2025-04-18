@@ -4,6 +4,6 @@ final miTema = ThemeData.dark().copyWith(
   scaffoldBackgroundColor: Color(0xff201E28),
   // scaffoldBackgroundColor: Color(0xff40404C),
   iconTheme: IconThemeData(
-    color: Colors.white.withValues(alpha: .3)
+    color: Colors.white.withValues(alpha: .4)
   )
 );

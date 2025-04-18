@@ -1,0 +1,56 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s23assets_audio_player_web31SwiftAssetsAudioPlayerWebPluginCMn",
+            "_assets_audio_player_webVersionNumber",
+            "_$s23assets_audio_player_web31SwiftAssetsAudioPlayerWebPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTq",
+            "_$s23assets_audio_player_web31SwiftAssetsAudioPlayerWebPluginCACycfC",
+            "_$s23assets_audio_player_web31SwiftAssetsAudioPlayerWebPluginCMa",
+            "_$s23assets_audio_player_web31SwiftAssetsAudioPlayerWebPluginCN",
+            "_$s23assets_audio_player_web31SwiftAssetsAudioPlayerWebPluginC8register4withySo07FlutterJ9Registrar_p_tFZ",
+            "_$s23assets_audio_player_web31SwiftAssetsAudioPlayerWebPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "_assets_audio_player_webVersionString",
+            "_$s23assets_audio_player_web31SwiftAssetsAudioPlayerWebPluginCfD",
+            "_$s23assets_audio_player_web31SwiftAssetsAudioPlayerWebPluginCACycfc"
+          ],
+          "objc_class": [
+            "PodsDummy_assets_audio_player_web",
+            "_TtC23assets_audio_player_web31SwiftAssetsAudioPlayerWebPlugin",
+            "AssetsAudioPlayerWebPlugin"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/assets_audio_player_web.framework/assets_audio_player_web"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "12",
+        "target": "x86_64-ios-simulator"
+      },
+      {
+        "min_deployment": "14",
+        "target": "arm64-ios-simulator"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

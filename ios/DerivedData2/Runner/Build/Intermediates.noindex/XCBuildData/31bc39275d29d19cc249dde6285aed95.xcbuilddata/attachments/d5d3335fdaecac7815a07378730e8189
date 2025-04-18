@@ -1,0 +1,5 @@
+
+module assets_audio_player.Swift {
+  header "assets_audio_player-Swift.h"
+  requires objc
+}

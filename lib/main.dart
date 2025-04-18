@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+
+import 'package:provider/provider.dart';
+import 'package:music_player/src/models/audioplayer_model.dart';
+
 import 'package:music_player/src/theme/theme.dart';
+
 import 'package:music_player/src/pages/music_player_page.dart';
 
 void main() {
@@ -11,11 +16,16 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Music Player',
-      theme: miTema,
-      home: MusicPlayerPage(),
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => AudioplayerModel()),
+      ],
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Music Player',
+        theme: miTema,
+        home: MusicPlayerPage(),
+      ),
     );
   }
 }

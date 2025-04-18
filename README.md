@@ -32,3 +32,63 @@ Para este proyecto, para no repetir cosas ya vistas en el curso, se da hecho `he
 En la carpeta `pages` creamos el archivo `music_player_page.dart`.
 
 En `main.dart` llamamos a nuestra nueva page.
+
+### Custom AppBar
+
+Instalamos el paquete `font_awesome_flutter`.
+
+En la carpeta `widgets` creamos el archivo `custom_appbar.dart`.
+
+En `music_player_page.dart` llamamos a nuestro nuevo widget.
+
+### Imagen del disco
+
+Modificamos `music_player_page.dart`.
+
+### Progreso de la canción
+
+Modificamos `music_player_page.dart`.
+
+### Título y botón de Play
+
+Modificamos `music_player_page.dart`.
+
+### Lyrics - ListWheelScrollView
+
+ListWheelScrollView es un ListView con un efecto circular.
+
+Modificamos `music_player_page.dart`.
+
+### Fondo con gradiente
+
+Modificamos `music_player_page.dart`.
+
+Es la última clase de diseño de esta app.
+
+### Icono animado
+
+Empezamos con la funcionalidad.
+
+Modificamos `music_player_page.dart`.
+
+### Animación del disco
+
+Vamos a hacer que el disco gire. Lo más difícil es enlazar el giro del disco con el botón de play, y para eso usaremos un provider.
+
+Instalamos los paquetes `animate_do` de animaciones y `provider` para hacer comunicación entre widgets..
+
+En la carpeta `models` creamos el archivo `audioplayer_model.dart`.
+
+Añadimos en `main.dart` el Provider.
+
+Modificamos `music_player_page.dart`.
+
+### Determinar la duración del disco
+
+Modificamos `audioplayer_model.dart`.
+
+### Reproducir música
+
+Instalamos el paquete `assets_audio_player`.
+
+Modificamos `music_player_page.dart`.

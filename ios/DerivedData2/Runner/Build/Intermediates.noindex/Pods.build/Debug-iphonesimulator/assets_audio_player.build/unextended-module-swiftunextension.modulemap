@@ -1,0 +1,4 @@
+
+module assets_audio_player.__Swift {
+  exclude header "assets_audio_player-Swift.h"
+}
